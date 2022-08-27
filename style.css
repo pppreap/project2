@@ -1,0 +1,23 @@
+* {
+    font-family: 'Zilla Slab';
+    font-style: center;
+    background-color: blanchedalmond;
+  }
+
+.logo {
+    size: 50px;
+    color:brown
+}
+  
+.main {
+    font-size: 40px;
+    font-family:'Zilla Slab'; 
+  }
+
+.login-btn {
+    position: absolute;
+    color:brown;
+    top:0; 
+    right:0;
+
+}
