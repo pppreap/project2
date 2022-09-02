@@ -14,7 +14,7 @@ const newFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        document.location.replace('/goal');
+        document.location.replace('/profile');
       } else {
         alert('Failed to create goal');
       }
@@ -30,7 +30,7 @@ const newFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        document.location.replace('/goal');
+        document.location.replace('/profile');
       } else {
         alert('Failed to delete goal');
       }

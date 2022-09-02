@@ -41,7 +41,7 @@ router.get('/goal/:id', async (req, res) => {
     const goal = goalData.get({ plain: true });
 
     res.render('goal', {
-      ...goal,
+      goal,
       logged_in: req.session.logged_in
     });
   } catch (err) {
@@ -61,7 +61,7 @@ router.get('/profile', withAuth, async (req, res) => {
     const user = userData.get({ plain: true });
 
     res.render('profile', {
-      ...user,
+      user,
       logged_in: true
     });
   } catch (err) {
