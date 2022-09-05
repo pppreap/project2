@@ -15,7 +15,7 @@
 
 .login-btn {
     position: absolute;
-    color:rgb(45, 34, 18);
+    color:rgb(17, 13, 8);
     top:0; 
     left:0;
     font-size: 20px;
@@ -38,7 +38,7 @@ h2 {
 
 body {
   background-image: url("background.jpg");
-  background-repeat: no-repeat:
+  background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
 }
