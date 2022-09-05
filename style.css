@@ -1,7 +1,6 @@
 * {
     font-family: 'Zilla Slab';
     font-style: center;
-    background-color: blanchedalmond;
   }
 
 .logo {
@@ -16,8 +15,47 @@
 
 .login-btn {
     position: absolute;
-    color:brown;
+    color:rgb(45, 34, 18);
     top:0; 
-    right:0;
+    left:0;
+    font-size: 20px;
+    background-color: hsl(31, 62%, 38%);
+    padding: 8px 24px;
 
+}
+
+h1 {
+  font-size: 70px;
+  color: rgb(80, 50, 18); 
+  text-shadow: 2px 2px #1b1206
+}
+
+h2 {
+  font-size: 20px;
+  color: rgb(80, 50, 18); 
+  text-shadow: 1px 1px #1b1206
+}
+
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat:
+  background-attachment:fixed;
+  background-size: cover;
+}
+
+
+form {
+  width: 200px;
+  max-width: 400px;
+  color:rgb(45, 34, 18);
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: var(--border-radius);
+  border-style: solid;
+  border-width: 2px;
+  border-color: hsl(31, 62%, 28%);
+  background: hsl(31, 62%, 38%);
+  position: absolute;
+  bottom: 60px;
 }
