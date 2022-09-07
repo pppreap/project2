@@ -1,7 +1,16 @@
 * {
     font-family: 'Zilla Slab';
     font-style: center;
+    
   }
+
+html{
+  background:none;
+}
+
+.footer{
+  background: none;
+}
 
 .logo {
     size: 50px;
@@ -25,9 +34,11 @@
 }
 
 h1 {
-  font-size: 70px;
-  color: hsl(212, 100%, 29%); 
-  text-shadow: 2px 2px #1b1206
+  font-size: 60px;
+  color: hsl(212, 100%, 27%); 
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 
 h2 {
@@ -43,7 +54,7 @@ body {
 
 
 .signup-form {
-  width: 200px;
+  width: 250px;
   max-width: 400px;
   color:rgb(0, 0, 0);
   margin: 1rem;
@@ -55,11 +66,47 @@ body {
   border-color: hsl(212, 100%, 29%);
   background: rgb(255, 215, 86);
   position: relative;
-  height: 150px;
+  height: 250px;
   bottom: 60px;
   margin-top: 80px;
 }
 
+
+/*Navbar Styling*/
+.buttons:hover{
+  background-color: lightgray;
+  color: blue;
+}
+
+.buttons{
+  margin-top: 15px;
+  font-size: 20px;
+  border: 0;
+  background-color: white;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#logout{
+  margin-top: 0px;
+  font-size: 15px;
+  border: 0;
+  background-color: white;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#logout:hover{
+  background-color: lightgray;
+  color: blue;
+}
+
+.hero-body{
+  background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    width: auto;
+    -webkit-text-fill-color: transparent;
+}
 
 /*Goal Pages Styling*/
 #goalName{
