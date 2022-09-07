@@ -46,11 +46,16 @@ h2 {
   color: hsl(212, 100%, 29%); 
 }
 
+/* //trying to figure out this edit */
+
+
+
 body {
-  background-image: url("../images/weights.PNG");
+  background-image: url("../images/body.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 
 .signup-form {
