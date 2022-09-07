@@ -33,7 +33,6 @@ h1 {
 h2 {
   font-size: 20px;
   color: hsl(212, 100%, 29%); 
-  text-shadow: 1px 1px #1b1206
 }
 
 body {
@@ -65,6 +64,10 @@ body {
 /*Goal Pages Styling*/
 #goalName{
   font-size: 30px;
+  background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    width: fit-content;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
 }
 
 #goalDesc{
@@ -74,8 +77,4 @@ body {
 
 #goalDate{
   font-weight: bold;
-  background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    width: fit-content;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
