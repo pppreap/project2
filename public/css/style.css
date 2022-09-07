@@ -21,7 +21,7 @@
     font-size: 20px;
     background-color: rgb(255, 215, 86);
     padding: 8px 24px;
-    margin-left: 15%;
+    margin-left: 180px;
 }
 
 h1 {
@@ -36,7 +36,7 @@ h2 {
 }
 
 body {
-  background-image: url("../images/weights.png");
+  background-image: url("../images/weights.PNG");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -57,7 +57,7 @@ body {
   position: relative;
   height: 150px;
   bottom: 60px;
-  margin-top: 5%;
+  margin-top: 80px;
 }
 
 
@@ -67,7 +67,8 @@ body {
   background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
     width: fit-content;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
 }
 
 #goalDesc{
