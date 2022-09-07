@@ -1,6 +1,6 @@
 # Project 2// Group 1: Building An App with Node.js Express.js Handlebar.js MYSQL Sequelize ORM MVC paradigm authentication
 
-Link to [The Weigh In Application]:(https://cryptic-lowlands-18434.herokuapp.com/)
+Link to [The Weigh In Application]:(https://serene-oasis-25855.herokuapp.com/)
 Presentation Slides: ()
 
 # User Story for the Weighin
@@ -37,7 +37,7 @@ These are images of the working application.
 #### Links
 [Github Repository](https://github.com/pppreap/project2) 
 ///
-[Link to theweighin](https://cryptic-lowlands-18434.herokuapp.com/)
+[Link to theweighin](https://serene-oasis-25855.herokuapp.com/)
 
 #### Credits
 -MIT
