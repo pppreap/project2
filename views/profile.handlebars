@@ -45,6 +45,39 @@
     {{/each}}
   </div>
   {{/if}}
+  
+  <form name="bmiForm">
+<div class="bmi-calculator">
+  <h2 style="margin-bottom: 1em; color: black; font-size:28px;">Calculate your BMI</h2>
+  <div class="bmi-calculator-weight">
+    <input class="weight-slider" name="realweight" id="myWeight" type="range" min="25" max="180" value="60"/>
+    <p style="margin-top: 1.8em;">
+      WEIGHT: 
+      <input name="WEIGHT" id="inputWeight" type="number" value="60" min="25" max="180" oninput="showValWeight(this.value)"/>
+      <span id="weight"></span> kg
+    </p>
+  </div>
+  <div class="bmi-calculator-height">
+    <input class="height-slider" name="realheight" id="myHeight" type="range" min="100" max="220" value="160">
+    <p style="margin-top: 1.8em;">
+      HEIGHT:
+      <input name="HEIGHT" id="inputHeight" type="number" value="160" min="100" max="220" oninput="showValHeight(this.value)"/>
+      <span id="height"></span> cm
+    </p>
+  </div>
+  <input class="BMI" type="button" value="Calculate" onclick="calculateBmi()" style="margin-top: 0.5em">
+ <p style="margin-top: 1em;font-size: 1.2em;">
+   <strong>Your BMI:</strong>
+   <span id="yourbmi" style="font-size: 1.2em;margin-left: 8px;"></span>
+ </p>
+ <p></p>
+ <p>
+   <span id="Message"></span>
+ </p>
+</div>
+</form>
+  
+  
   </div>
 
 </br>
