@@ -140,9 +140,10 @@ body {
   box-shadow: 0px 0px 10px hsl(0,0%,73.9%);
   padding: 3em;
   margin: 2em;
-  height: 520px;
+  height: 550px;
   width: 250px;
   background-color: rgba(0, 0, 255, 0.226);
+
 }
 /*
   Styling for div elements wrapping both sliders
@@ -236,4 +237,11 @@ input[type=number]:focus {
   .bmi-calculator {
     height: 560px;
   }
+}
+
+#bmiForm{
+  display: inline;
+  position: fixed;
+  right: 5px;
+  top: 190px;
 }
