@@ -40,7 +40,10 @@ These are images of the working application.
 [Link to theweighin](https://serene-oasis-25855.herokuapp.com/)
 
 #### Credits
--MIT
--Michigan State University Full Stack Coding Camp
+- MIT, Heroku, Github
+- Michigan State University Full Stack Coding Camp
+- Background Image: https://www.pexels.com/search/weight%20loss/
+- BMI calculator: https://codepen.io/janez33/pen/BepwqE
+
 
 
