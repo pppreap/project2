@@ -41,6 +41,9 @@ These are images of the working application.
 
 #### Credits
 -MIT
+
 -Michigan State University Full Stack Coding Camp
+
+-Background Image: https://www.pexels.com/search/weight%20loss/
 
 
