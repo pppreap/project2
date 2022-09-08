@@ -1,7 +1,7 @@
 {
   "name": "project2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Link to [The Weigh In Application]:(https://serene-oasis-25855.herokuapp.com/) Presentation Slides: ()",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,5 +27,6 @@
     "express-session": "^1.17.3",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.4"
-  }
+  },
+  "devDependencies": {}
 }
