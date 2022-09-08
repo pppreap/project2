@@ -4,40 +4,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Weighin!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="/css/style.css">
+  <title>The Weighin!</title>
 </head>
 
 <body>
-  <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <span role="img" aria-label="weightlifter">🏋️</span>
-        <a href="/">The Weigh In!</a>
-      </h1>
-      <nav>
-        <!-- Conditionally render login or logout links -->
-        {{#if logged_in}}
-        <a href="/profile">Profile</a> |
-        <button class="no-button" id="logout">Logout</button>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+                  <span role="img" aria-label="weightlifter">🏋️</span>
+            
+          </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="buttons" href="/">
+              Home
+            </a>
+      
+            {{#if logged_in}}
+        <a class="buttons" href="/profile">Profile</a>
+        <button class="no-button navbar-item" id="logout">Logout</button>
         {{else}}
-        <a href="/login">Login</a>
+        <a class="buttons" href="/login">Login</a>
         {{/if}}
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="buttons">
+                More
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="https://github.com/pppreap/project2" target="_blank">
+                  About
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Report an issue
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </nav>
-    </header>
+          </header>
+  </div>
+<section class="hero is-info">
+    <div class="hero-body">
+      <h1>
+      <a href="/">The Weigh In!</a>
+      </h1>
+    </div>
+</section>
     <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->
       {{{ body }}}
     </main>
-    <footer>
-      
-    </footer>
-  </div>
+    <footer class="footer">
+  
+      </footer>
+    </div>
+
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
+  
 </body>
 
 </html>
